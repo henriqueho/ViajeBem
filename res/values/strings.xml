@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Viaje Bem</string>
+    <string name="ops">Ops!</string>
+    <string name="error">Erro!</string>
+    <string name="error_pacotes">Não foi possível carregar lista de pacotes</string>
+    <string name="error_pacote">Não foi possível carregar pacote</string>
+    <string name="tentar_de_novo">tentar novamente</string>
+    <string name="title_activity_pacote">PacoteActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
