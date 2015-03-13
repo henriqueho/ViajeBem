@@ -38,11 +38,11 @@ public class TesteActivity extends StartAppActivity {
 		}
 	}
 	
-	protected void showTutorial() {
-	if (SharedPreferencesHelper.getInstance(this).hasToShowTutorial()) {
-		SharedPreferencesHelper.getInstance(this).setHasToShowTutorial(
-				false);
-		startActivity(new Intent(this, MainActivity.class));
+	protected void onCreateStartApp() {
+		if (!SharedPreferencesHelper.getInstance(this).hasToShowTutorial()) {
+			SharedPreferencesHelper.getInstance(this).setHasToShowTutorial(
+					false);
+			startActivity(new Intent(this, MainActivity.class));
+		}
 	}
-}
 }
