@@ -9,5 +9,7 @@
     <string name="tentar_de_novo">tentar novamente</string>
     <string name="title_activity_pacote">PacoteActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_teste">TesteActivity</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

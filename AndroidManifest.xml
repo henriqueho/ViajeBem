@@ -19,15 +19,19 @@
         <activity
             android:name=".activities.MainActivity"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activities.PacoteActivity"
+            android:label="@string/title_activity_pacote" >
+        </activity>
+        <activity
+            android:name="br.com.mobicare.viajabessa.viajebem.activities.TesteActivity"
+            android:label="@string/title_activity_teste" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="br.com.mobicare.viajabessa.viajebem.activities.PacoteActivity"
-            android:label="@string/title_activity_pacote" >
         </activity>
     </application>
 
