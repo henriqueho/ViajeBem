@@ -3,14 +3,14 @@ package br.com.mobicare.viajabessa.viajebem.activities;
 import java.util.ArrayList;
 
 import android.content.Intent;
-import br.com.hhw.startapp.activities.StartAppActivity;
+import br.com.hhw.startapp.activities.MenuStartAppActivity;
 import br.com.hhw.startapp.activities.helpers.SharedPreferencesHelper;
 import br.com.how.hhwslidemenu.HHWMenuItem;
 import br.com.how.hhwslidemenu.HHWSlideMenu;
 import br.com.mobicare.viajabessa.viajebem.R;
 import br.com.mobicare.viajabessa.viajebem.fragments.TesteFragment;
 
-public class TesteActivity extends StartAppActivity {
+public class TesteActivity extends MenuStartAppActivity {
 
 	protected void createMenu() {
 
