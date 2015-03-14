@@ -42,9 +42,9 @@ public class MainActivity extends ActionBarActivity implements
 	private void setSwipeRefresh() {
 		swipeLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_container);
 		swipeLayout.setOnRefreshListener((OnRefreshListener) this);
-		swipeLayout.setColorScheme(R.color.holo_blue_light,
-				R.color.holo_green_light, R.color.holo_orange_light,
-				R.color.holo_red_light);
+//		swipeLayout.setColorScheme(R.color.holo_blue_light,
+//				R.color.holo_green_light, R.color.holo_orange_light,
+//				R.color.holo_red_light);
 	}
 
 	private void setStubViewsError() {
